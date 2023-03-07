@@ -1,0 +1,60 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-color: gray;
+}
+
+h1{
+    margin: 50px;
+}
+
+.flexContainer{
+    display: flex;
+}
+
+#navContainer{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 10vw;
+
+    list-style-type: none;
+}
+
+.navBox{
+    text-decoration: none;
+    color: black;
+
+    
+    background-color: gainsboro;
+    padding: 10px 30px;
+    margin: 3px 5px;
+
+    border: black 3px solid;
+    border-radius: 25%;
+}
+
+.linkText{
+    text-decoration: none;
+    color: black;
+}
+
+.linkText:hover{
+    color:darkcyan;
+}
+
+.box-1{
+    background-color: gainsboro;
+    padding: 15px 30px;
+    margin: 5px;
+    border: black 3px solid;
+    border-radius: 5%;
+}
+
+table{
+    border-collapse: separate;
+    border-spacing: 2em 15px;
+}

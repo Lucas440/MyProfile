@@ -4,48 +4,49 @@
 <head>
     <meta charset="utf-8" />
     <title>My projects</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" rel="stylesheet">
-
+    <link href="profileStyle.css" rel="stylesheet"/>
 </head>
 <body>
     <nav>
-        <ul>
-            <li><a href="index.html">Go to profile</a></li>
-            <li><a href="projects.html">Go to projects</a></li>
-            <li><a href="https//:www.linkedin.com/in/lucas-brennan-1576b4243" target="_blank">My LinkedIn</a></li>
+        <ul id="navContainer">
+            <li class="navBox"><a href="index.html" class="linkText">Go to profile</a></li>
+            <li class="navBox"><a href="projects.html" class="linkText">Go to projects</a></li>
+            <li class="navBox"><a href="https//:www.linkedin.com/in/lucas-brennan-1576b4243" target="_blank" class="linkText">My LinkedIn</a></li>
         </ul>
     </nav>
     <section>
-        <h1>Projects</h1>
-        <table class="table">
-            <thead>
-                <tr>
-                    <th>Project Name</th>
-                    <th>Description</th>
-                    <th>Year</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <td>Games Project</td>
-                    <td>Made a Plants Vs Zombies Style of Game</td>
-                    <td>2022</td>
-                </tr>
-                <tr>
-                    <td>Pathfinding Project</td>
-                    <td>Made a Computer find its way through a maze</td>
-                    <td>2022</td>
-                </tr>
-                <tr>
-                    <td>Machine Learning Project</td>
-                    <td>Made a Computer learn where Pokemon Live</td>
-                    <td>2022</td>
-                </tr>
-            </tbody>
-        </table>
+        <h1 class="box-1">Projects</h1>
+        <div class="flexContainer">    
+            <table class="box-1">
+                <thead>
+                    <tr>
+                        <th>Project Name</th>
+                        <th>Description</th>
+                        <th>Year</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><a href="https://github.com/Lucas440/COMP3404Games" target="_blank" class="linkText">Games Project</a></td>
+                        <td>Made a Plants Vs Zombies Style of Game</td>
+                        <td>2022</td>
+                    </tr>
+                    <tr>
+                        <td><a href="https://github.com/Lucas440/Pathfinding" target="_blank" class="linkText">Pathfinding Project</a></td>
+                        <td>Made a Computer find its way through a maze</td>
+                        <td>2022</td>
+                    </tr>
+                    <tr>
+                        <td><a href="https://github.com/Lucas440/COMP3407" target="_blank" class="linkText">Machine Learning Project</a></td>
+                        <td>Made a Computer learn where Pokemon Live</td>
+                        <td>2022</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
     </section>
     <section>
-        <h2>Javascript Game</h2>
+        <h2 class="box-1">Javascript Game</h2>
         <!-- We will implement this in the JavaScript lesson -->
     </section>
 </body>
