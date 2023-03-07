@@ -37,6 +37,10 @@ h1{
     border-radius: 25%;
 }
 
+.navBox:hover{
+    background-color:ghostwhite;
+}
+
 .linkText{
     text-decoration: none;
     color: black;
